@@ -17,8 +17,9 @@
     h1 { font-size: 1.8rem; margin-bottom: 4px; }
     .meta { color: #888; font-size: 0.9rem; margin-bottom: 40px; }
     h2 { font-size: 1.1rem; margin-top: 36px; margin-bottom: 8px; }
+    h3 { font-size: 1rem; margin-top: 24px; margin-bottom: 6px; }
     p, li { color: #333; }
-    ul { padding-left: 20px; }
+    ul, ol { padding-left: 20px; }
     li { margin-bottom: 6px; }
     table {
       width: 100%;
@@ -30,6 +31,7 @@
       border: 1px solid #e0e0e0;
       padding: 10px 14px;
       text-align: left;
+      vertical-align: top;
     }
     th { background: #f8f8f8; font-weight: 600; }
     .highlight {
@@ -39,6 +41,7 @@
       border-radius: 4px;
       margin: 20px 0;
     }
+    hr { border: none; border-top: 1px solid #eee; margin: 32px 0; }
     a { color: #0066cc; }
     nav { margin-bottom: 32px; }
     nav a { display: inline-block; margin-right: 16px; font-size: 0.9rem; }
@@ -48,90 +51,211 @@
   <nav><a href="index.html">← Back</a></nav>
   <h1>Privacy Policy</h1>
   <p class="meta">BeanFit &nbsp;·&nbsp; Effective date: 8 June 2026 &nbsp;·&nbsp; Last updated: 8 June 2026</p>
+
+  <hr>
+
+  <h2>Table of Contents</h2>
+  <ol>
+    <li><a href="#s1">Who We Are</a></li>
+    <li><a href="#s2">The Short Version</a></li>
+    <li><a href="#s3">Legal Basis for This Policy</a></li>
+    <li><a href="#s4">Information We Collect</a></li>
+    <li><a href="#s5">Information We Do Not Collect</a></li>
+    <li><a href="#s6">How Your Data Is Stored</a></li>
+    <li><a href="#s7">Third-Party Services</a></li>
+    <li><a href="#s8">Children's Privacy</a></li>
+    <li><a href="#s9">Universal Opt-Out and Do Not Track</a></li>
+    <li><a href="#s10">Data Retention</a></li>
+    <li><a href="#s11">Security</a></li>
+    <li><a href="#s12">State Privacy Rights and Disclosures</a></li>
+    <li><a href="#s13">Notice to California Residents (CCPA)</a></li>
+    <li><a href="#s14">Notice to UK Residents (UK GDPR)</a></li>
+    <li><a href="#s15">Notice to Residents of the European Economic Area (GDPR)</a></li>
+    <li><a href="#s16">Changes to This Policy</a></li>
+    <li><a href="#s17">Contact Us</a></li>
+  </ol>
+
+  <hr>
+
+  <h2 id="s1">1. Who We Are</h2>
+  <p>BeanFit ("the App", "we", "us", "our") is a personal fitness tracking application developed and operated by Anthony Grisoni, an individual based in the United Kingdom ("the Developer"). The App is distributed through the Apple App Store.</p>
+
+  <hr>
+
+  <h2 id="s2">2. The Short Version</h2>
   <div class="highlight">
-    <strong>The short version:</strong> BeanFit does not collect, transmit, store on
-    any server, or share any of your personal data. Everything you enter into the App
-    stays on your device, under your control, at all times.
+    <strong>BeanFit does not collect, transmit, store on any server, or share any of your personal data. Everything you enter into the App stays on your device, under your control, at all times.</strong> We have no servers. We have no database of user information. We cannot see your workout data, and we never will.
   </div>
-  <h2>1. Who We Are</h2>
-  <p>BeanFit is a personal fitness tracking application developed and operated by
-  Anthony Grisoni, an individual based in the United Kingdom. The App is distributed
-  through the Apple App Store.</p>
-  <h2>2. Information We Collect</h2>
+  <p>This policy explains what that means in detail and describes your rights under applicable law.</p>
+
+  <hr>
+
+  <h2 id="s3">3. Legal Basis for This Policy</h2>
+  <p>We are committed to complying with applicable data protection and privacy laws, including:</p>
+  <ul>
+    <li>The UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018;</li>
+    <li>The California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA);</li>
+    <li>Other applicable US state privacy laws;</li>
+    <li>Apple App Store privacy requirements.</li>
+  </ul>
+  <p>Because BeanFit does not collect or process personal data on any server, the obligations these laws place on us as a data processor or controller are minimal. This policy documents that position clearly and completely.</p>
+
+  <hr>
+
+  <h2 id="s4">4. Information We Collect</h2>
   <p><strong>We collect no personal data.</strong></p>
-  <p>All data you enter into BeanFit — including workout logs, exercise entries, sets,
-  reps, weights, body weight records, session names, and any other information you record
-  — is stored exclusively on your device using Apple's on-device storage (SwiftData).
-  This data is never transmitted to any server, never accessed by the Developer, and
-  never shared with any third party for any purpose.</p>
-  <p>We do not use any analytics tools, crash reporting services, advertising networks,
-  or third-party SDKs that collect data. The App contains no tracking technology of
-  any kind.</p>
-  <h2>3. Information We Do Not Collect</h2>
-  <p>BeanFit never collects:</p>
+  <p>All data you enter into BeanFit — including workout logs, exercise entries, sets, reps, weights, body weight records, session names, session RPE, cardio entries, and any other information you record — is stored exclusively on your device using Apple's on-device storage framework (SwiftData/Core Data). This data:</p>
+  <ul>
+    <li>Is never transmitted to any server operated by us or any third party;</li>
+    <li>Is never accessed by the Developer;</li>
+    <li>Is never sold, licensed, shared, or disclosed to any third party for any purpose;</li>
+    <li>Is never used for advertising, analytics, profiling, machine learning, or any commercial purpose.</li>
+  </ul>
+  <p>We do not use any analytics tools, crash reporting services, advertising networks, or third-party software development kits (SDKs) that collect data. The App contains no tracking technology of any kind.</p>
+
+  <hr>
+
+  <h2 id="s5">5. Information We Do Not Collect</h2>
+  <p>To be explicit, the following categories of information are never collected by BeanFit:</p>
   <ul>
     <li>Name, email address, or any contact information</li>
     <li>Account credentials, passwords, or authentication data</li>
     <li>Location data (GPS or otherwise)</li>
     <li>Health, biometric, or fitness data transmitted off your device</li>
-    <li>Device identifiers (IDFA, IDFV, or similar)</li>
+    <li>Device identifiers (IDFA, IDFV, serial numbers, or similar)</li>
     <li>IP addresses or network information</li>
+    <li>Internet or electronic network activity information</li>
     <li>Usage analytics, session data, or behavioural data</li>
     <li>Purchase history or payment information</li>
-    <li>Camera, microphone, photo library, contacts, or calendar data</li>
-    <li>Cookies, pixels, beacons, or any tracking technologies</li>
+    <li>Camera, microphone, or photo library data</li>
+    <li>Contacts or calendar data</li>
+    <li>Cookies, pixels, beacons, or similar tracking technologies (the App is a native iOS application; no web cookies are used)</li>
   </ul>
-  <h2>4. How Your Data Is Stored</h2>
-  <p><strong>You own your data.</strong> All workout data is stored locally on your iPhone.
-  You can export, back up, or delete your data at any time using the tools within the App.
-  Uninstalling the App permanently removes all associated data.</p>
-  <p><strong>iCloud Backup.</strong> If you have iCloud Backup enabled, Apple may include
-  your BeanFit data in your device backup. This is governed by Apple's Privacy Policy
-  (apple.com/legal/privacy) and is outside our control.</p>
-  <h2>5. Third-Party Services</h2>
-  <p>BeanFit does not integrate with any third-party services, APIs, or SDKs. Downloading
-  the App requires an Apple ID and is subject to Apple's privacy policy. We have no access
-  to any data Apple collects.</p>
-  <h2>6. Children's Privacy</h2>
-  <p>BeanFit is not directed at children under 13. We do not knowingly collect personal
-  information from children under 13. Because we collect no personal information from any
-  user, there is no specific privacy risk to younger users. If you are under 13, please
-  do not use BeanFit.</p>
-  <h2>7. Your Rights</h2>
-  <h3>UK Users (UK GDPR / Data Protection Act 2018)</h3>
+
+  <hr>
+
+  <h2 id="s6">6. How Your Data Is Stored</h2>
+  <p><strong>You own your data.</strong> All workout data is stored locally on your iPhone using Apple's on-device storage. You are the data controller of your own information. You can export, back up, or delete your data at any time using the tools provided within the App. Uninstalling the App from your device permanently removes all associated App data.</p>
+  <p><strong>iCloud Backup.</strong> If you have iCloud Backup enabled on your device, Apple may include your BeanFit data as part of your standard device backup. This is governed entirely by Apple's Privacy Policy (available at apple.com/legal/privacy) and is outside our control. We have no access to your iCloud backups at any time.</p>
+  <p><strong>App Export/Backup Feature.</strong> BeanFit provides an in-app export feature that allows you to create a local backup file of your data. This file is created on your device and stored wherever you choose (e.g., Files app, email to yourself). We have no access to any exported files.</p>
+
+  <hr>
+
+  <h2 id="s7">7. Third-Party Services</h2>
+  <p>BeanFit does not integrate with any third-party services, platforms, APIs, or SDKs. We do not share data with social media platforms, advertising networks, analytics providers, cloud services, or any other third party.</p>
+  <p><strong>Apple App Store.</strong> Downloading and using BeanFit requires an Apple ID and is subject to Apple's terms and privacy policy. Apple may collect certain technical and usage data as part of the App Store experience. This collection is governed entirely by Apple's Privacy Policy. We have no access to any data Apple collects and there is no exchange of data between us and Apple in relation to your use of the App.</p>
+
+  <hr>
+
+  <h2 id="s8">8. Children's Privacy</h2>
+  <p>BeanFit is not directed at children under the age of 13 in the United States or under the age of 13 in the United Kingdom. We do not knowingly collect personal information from children under 13.</p>
+  <p>In practice, because we collect no personal information from any user, there is no specific privacy risk to younger users. If you are under 13 years of age, please do not use BeanFit.</p>
+  <p>If you are a parent or guardian and believe your child under 13 has used the App, please be aware that no personal data has been collected, stored, or transmitted by us. You can remove all App data by uninstalling the App from the device.</p>
+  <p>We do not sell the personal data of anyone, including children under 16.</p>
+
+  <hr>
+
+  <h2 id="s9">9. Universal Opt-Out and Do Not Track</h2>
+  <p>Because BeanFit collects no personal data and uses no tracking technologies, there is nothing to opt out of. The App does not respond to Global Privacy Control (GPC) signals or "Do Not Track" browser signals because no tracking occurs.</p>
+
+  <hr>
+
+  <h2 id="s10">10. Data Retention</h2>
+  <p>We retain no data. All data is stored on your device and is retained for as long as you choose to keep it or until you delete it or uninstall the App. There is no data held by us to retain, delete, or export.</p>
+
+  <hr>
+
+  <h2 id="s11">11. Security</h2>
+  <p>Because all data remains on your device and is never transmitted to us, the security of your workout data is governed by your device's built-in security features — including your device passcode, Face ID or Touch ID, and Apple's on-device encryption. We recommend keeping your device operating system up to date and enabling device-level security to protect your data.</p>
+
+  <hr>
+
+  <h2 id="s12">12. State Privacy Rights and Disclosures</h2>
+  <p>Depending on the state in which you reside in the United States, you may have certain privacy rights. Because BeanFit does not collect, sell, share, or process any personal data, these rights apply only in the narrow sense that you may contact us to confirm this position.</p>
+  <p>Applicable rights under various state privacy laws (including Virginia's VCDPA, Colorado's CPA, Connecticut's CTDPA, and similar laws) include:</p>
+  <ul>
+    <li>The right to confirm whether we process your personal data — <strong>We do not.</strong></li>
+    <li>The right to access your personal data — <strong>We hold none.</strong></li>
+    <li>The right to delete your personal data — <strong>We hold none; your data is on your device.</strong></li>
+    <li>The right to correct inaccurate personal data — <strong>We hold none.</strong></li>
+    <li>The right to opt out of the sale of personal data — <strong>We do not sell personal data.</strong></li>
+    <li>The right to opt out of targeted advertising — <strong>We conduct no targeted advertising.</strong></li>
+    <li>The right to non-discrimination for exercising privacy rights — <strong>We do not discriminate.</strong></li>
+  </ul>
+  <p>To exercise any of these rights or to confirm our position, please contact us using the details in Section 17.</p>
+
+  <hr>
+
+  <h2 id="s13">13. Notice to California Residents (CCPA / CPRA)</h2>
+  <p>This section supplements the above for California residents. It is intended solely for, and is applicable only as to, California residents.</p>
+  <p><strong>Notice at Collection.</strong> We do not collect personal information from users of BeanFit. The following table summarises our position with respect to CCPA categories of personal information:</p>
+  <table>
+    <tr><th>Category of Personal Information</th><th>Collected?</th><th>Sold or Shared?</th><th>Purpose</th></tr>
+    <tr><td>Identifiers (name, email, IP address, etc.)</td><td>No</td><td>No</td><td>N/A</td></tr>
+    <tr><td>Personal characteristics or descriptions</td><td>No</td><td>No</td><td>N/A</td></tr>
+    <tr><td>Commercial information (purchase records)</td><td>No</td><td>No</td><td>N/A</td></tr>
+    <tr><td>Internet/network activity information</td><td>No</td><td>No</td><td>N/A</td></tr>
+    <tr><td>Geolocation data</td><td>No</td><td>No</td><td>N/A</td></tr>
+    <tr><td>Biometric or health/fitness data</td><td>No</td><td>No</td><td>N/A</td></tr>
+    <tr><td>Inferences drawn from personal information</td><td>No</td><td>No</td><td>N/A</td></tr>
+    <tr><td>Sensitive personal information</td><td>No</td><td>No</td><td>N/A</td></tr>
+  </table>
+  <p><strong>Your California Rights:</strong></p>
   <table>
     <tr><th>Right</th><th>Our Position</th></tr>
-    <tr><td>Right of access</td><td>Your data is on your device. Access it directly through the App at any time.</td></tr>
-    <tr><td>Right to rectification</td><td>Your data is on your device. Correct it directly through the App at any time.</td></tr>
-    <tr><td>Right to erasure</td><td>Delete data in the App, or uninstall the App to remove all data.</td></tr>
-    <tr><td>Right to data portability</td><td>Use the App's built-in export feature at any time.</td></tr>
-    <tr><td>Right to object</td><td>We process no personal data on our systems.</td></tr>
+    <tr><td><strong>Right to Know</strong></td><td>We hold no personal information about you.</td></tr>
+    <tr><td><strong>Right to Delete</strong></td><td>We hold no personal information to delete.</td></tr>
+    <tr><td><strong>Right to Correct</strong></td><td>We hold no personal information to correct.</td></tr>
+    <tr><td><strong>Right to Opt Out of Sale or Sharing</strong></td><td>We do not sell or share personal information.</td></tr>
+    <tr><td><strong>Right to Limit Use of Sensitive Personal Information</strong></td><td>We do not collect sensitive personal information.</td></tr>
+    <tr><td><strong>Right to Non-Discrimination</strong></td><td>We do not discriminate.</td></tr>
   </table>
-  <h3>California Users (CCPA / CPRA)</h3>
+  <p><strong>How to Exercise Your Rights.</strong> To exercise any of the above rights, or to request confirmation that we hold no personal data about you, contact us at <a href="mailto:beanfitapp.com.oxidizing930@passfwd.com">beanfitapp.com.oxidizing930@passfwd.com</a>.</p>
+  <p><strong>Shine the Light Law.</strong> We do not disclose personal information to third parties for their direct marketing purposes.</p>
+  <p><strong>Do Not Sell or Share My Personal Information.</strong> We do not sell or share personal information. There is no mechanism to opt out of because no sale or sharing occurs.</p>
+
+  <hr>
+
+  <h2 id="s14">14. Notice to UK Residents (UK GDPR / Data Protection Act 2018)</h2>
+  <p>This section applies to residents of the United Kingdom.</p>
+  <p>Because BeanFit does not collect or process personal data on any server, the UK GDPR rights set out below apply in the limited sense that all personal data within the App's scope is stored locally on your device, under your direct control.</p>
   <table>
     <tr><th>Right</th><th>Our Position</th></tr>
-    <tr><td>Right to Know</td><td>We hold no personal information about you.</td></tr>
-    <tr><td>Right to Delete</td><td>We hold no personal information to delete.</td></tr>
-    <tr><td>Right to Opt Out of Sale</td><td>We do not sell personal information.</td></tr>
-    <tr><td>Right to Non-Discrimination</td><td>We do not discriminate.</td></tr>
+    <tr><td><strong>Right of access</strong></td><td>Your data is on your device. You can access it directly through the App at any time.</td></tr>
+    <tr><td><strong>Right to rectification</strong></td><td>Your data is on your device. You can correct it directly through the App at any time.</td></tr>
+    <tr><td><strong>Right to erasure</strong></td><td>Your data is on your device. You can delete it — or delete the App — at any time.</td></tr>
+    <tr><td><strong>Right to restriction of processing</strong></td><td>We process no personal data on our systems.</td></tr>
+    <tr><td><strong>Right to data portability</strong></td><td>Use the App's built-in export feature to obtain your data in a portable format at any time.</td></tr>
+    <tr><td><strong>Right to object</strong></td><td>We process no personal data on our systems.</td></tr>
+    <tr><td><strong>Right to withdraw consent</strong></td><td>We rely on no consent-based processing.</td></tr>
   </table>
-  <h2>8. State Privacy Rights (Other US States)</h2>
-  <p>Various US state privacy laws (Virginia VCDPA, Colorado CPA, Connecticut CTDPA,
-  and others) grant rights regarding personal data. Because BeanFit does not collect
-  or process personal data, these laws do not impose obligations on us with respect to
-  your use of the App.</p>
-  <h2>9. Data Security</h2>
-  <p>All data remains on your device. Its security is governed by your device's security
-  features and Apple's on-device encryption. We recommend keeping your iOS version up
-  to date and enabling device-level security (Face ID, Touch ID, passcode).</p>
-  <h2>10. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. Changes will be reflected in
-  an updated version of the App and on this page. Your continued use of the App after
-  any changes constitutes acceptance of the updated policy.</p>
-  <h2>11. Contact Us</h2>
-  <p>Anthony Grisoni<br>United Kingdom<br>
-  Email: <a href="mailto:Grisoni@duck.com">Grisoni@duck.com</a></p>
+  <p>If you have concerns about data protection or wish to confirm our position in writing, please contact us using the details in Section 17. You also have the right to lodge a complaint with the Information Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank">ico.org.uk</a>.</p>
+
+  <hr>
+
+  <h2 id="s15">15. Notice to Residents of the European Economic Area (GDPR)</h2>
+  <p>We do not specifically direct BeanFit to consumers in the European Economic Area (EEA). However, if you are located in the EEA, you have rights under the General Data Protection Regulation (GDPR) that are substantially the same as those described for UK residents in Section 14 above.</p>
+  <p>Because we do not collect or process personal data on any server, your GDPR rights apply to data stored on your own device, which is under your direct control.</p>
+  <p>If you have any concerns, you may contact us using the details in Section 17 or reach out to your applicable national Data Protection Authority.</p>
+
+  <hr>
+
+  <h2 id="s16">16. Changes to This Privacy Policy</h2>
+  <p>We may update this Privacy Policy from time to time to reflect changes to the App, applicable law, or our practices. Any changes will be reflected in an updated version of the App. The "Last updated" date at the top of this policy will indicate when the most recent changes were made.</p>
+  <p>We encourage you to review this policy periodically. Your continued use of the App following any changes constitutes your acceptance of the updated policy. If you do not agree to the updated policy, please stop using the App and delete it from your device.</p>
+
+  <hr>
+
+  <h2 id="s17">17. Contact Us</h2>
+  <p>If you have any questions, concerns, or requests regarding this Privacy Policy, or if you wish to exercise any privacy rights described above, please contact:</p>
+  <p><strong>Anthony Grisoni</strong><br>
+  United Kingdom<br>
+  Email: <a href="mailto:beanfitapp.com.oxidizing930@passfwd.com">beanfitapp.com.oxidizing930@passfwd.com</a></p>
   <p>We will endeavour to respond to all enquiries within 30 days.</p>
-  <p class="meta" style="margin-top:40px">© 2026 Anthony Grisoni. All rights reserved.</p>
+
+  <hr>
+
+  <p class="meta"><em>This Privacy Policy is effective as of 8 June 2026 and was last updated on 8 June 2026.</em></p>
+  <p class="meta">© 2026 Anthony Grisoni. All rights reserved.</p>
 </body>
 </html>
